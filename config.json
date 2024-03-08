@@ -1,6 +1,6 @@
 {
-  "defaultHomeServer": "thirdroom.io",
-  "homeserverList": ["thirdroom.io", "matrix.org"],
+  "defaultHomeServer": "lunar.town",
+  "homeserverList": ["lunar.town", "tchncs.de", "matrix.org", "thirdroom.io"],
   "onboardingVersion": 1,
   "whatsNewVersion": 1,
   "bugReportEndpointUrl": "https://element.io/bugreports/submit",
