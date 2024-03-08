@@ -1,5 +1,5 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import { createRoot } from 'react-dom/client';
 import { BrowserRouter, useLocation, useNavigationType, createRoutesFromChildren, matchRoutes } from "react-router-dom";
 import { enableMapSet } from "immer";
 import * as Sentry from "@sentry/react";
@@ -33,7 +33,8 @@ if (!rootEl) {
   throw new Error(`Can not find root element with id: ${rootId}`);
 }
 
-ReactDOM.createRoot(rootEl).render(
+const root = createRoot(rootEl);
+root.render(
   // <React.StrictMode>
   <BrowserRouter>
     <App />
