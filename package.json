@@ -1,9 +1,9 @@
 {
-  "name": "thirdroom",
+  "name": "ea-grl",
   "version": "0.0.1",
   "author": {
-    "name": "Third Room",
-    "url": "https://thirdroom.io"
+    "name": "ea-grl developers",
+    "url": "https://github.com/emberian/ea-grl"
   },
   "license": "Apache-2.0",
   "type": "module",
