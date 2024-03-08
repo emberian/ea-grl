@@ -61,7 +61,6 @@ export default defineConfig({
         logviewer: path.resolve(__dirname, "logviewer/index.html"),
       },
     },
-    watch: true,
   },
   test: {
     globals: true,
