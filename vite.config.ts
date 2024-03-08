@@ -13,7 +13,7 @@ export default defineConfig({
   appType: "mpa",
   base: "/",
   server: {
-    port: 3000,
+    port: 8500,
     hmr: false,
   },
   plugins: [
