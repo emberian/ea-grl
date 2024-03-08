@@ -6,8 +6,8 @@ import * as Sentry from "@sentry/react";
 import { Provider as JotaiProvider } from "jotai";
 
 import "./App.css";
-import "@fontsource/inter/variable.css";
-import "@fontsource/noto-serif/latin.css";
+import "@fontsource-variable/inter";
+import "@fontsource-variable/noto-serif";
 
 import { HydrogenRootView } from "./views/HydrogenRootView";
 import { SplashScreen } from "./views/components/splash-screen/SplashScreen";

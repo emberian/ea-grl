@@ -33,11 +33,10 @@ if (!rootEl) {
   throw new Error(`Can not find root element with id: ${rootId}`);
 }
 
-ReactDOM.render(
+ReactDOM.createRoot(rootEl).render(
   // <React.StrictMode>
   <BrowserRouter>
     <App />
   </BrowserRouter>,
-  // </React.StrictMode>,
-  rootEl
+  // </React.StrictMode>
 );
